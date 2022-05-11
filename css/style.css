@@ -1,0 +1,13 @@
+
+/*query is like an if them statement in css*/
+
+@media (requirements/conditions)
+
+/* width >/=*/
+@media (min-width: 768px) { what are all the rules if this condition is applied}
+
+/*write media queries at bottom of page so they are applied last and overide rules at top*/
+
+/* design with mobile as the default*/
+
+/*chrome developer tools to check mobile view*/
