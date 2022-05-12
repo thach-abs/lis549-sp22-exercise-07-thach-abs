@@ -58,4 +58,14 @@ footer {
 html {
     height: 100%;
 }
+footer {
+    display: block;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+main {
+    text-shadow: 1px #153c43;
+}
+
 }
