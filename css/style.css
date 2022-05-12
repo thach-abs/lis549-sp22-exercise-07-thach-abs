@@ -48,3 +48,14 @@ footer {
         display: block;
     }
 }
+
+@media (min-width: 768px) {
+    body {
+        background-image: url(../img/splash-md.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+html {
+    height: 100%;
+}
+}
