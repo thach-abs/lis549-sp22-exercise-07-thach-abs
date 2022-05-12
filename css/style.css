@@ -1,13 +1,50 @@
+/*default styling for extra small screens*/
 
-/*query is like an if them statement in css*/
+body {
+    margin: .5rem;
+    background-color: #93b8d7;
+    color: white;
+}
 
-@media (requirements/conditions)
+nav a {
+    color: white;
+    font-size: 2.5rem;
+    padding-right: .5em;
+    
+}
 
-/* width >/=*/
-@media (min-width: 768px) { what are all the rules if this condition is applied}
+/* hide links*/
 
-/*write media queries at bottom of page so they are applied last and overide rules at top*/
+#social-links {
+    display: none;
+}
 
-/* design with mobile as the default*/
+main {
+   text-align: center; 
+   font-family: "Kaushan Script", "papyrus";
+   margin-top: 23vh;
+}
 
-/*chrome developer tools to check mobile view*/
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 2em;
+}
+
+footer {
+    display: none;
+}
+
+/* media query */
+
+@media (min-width 598px) {
+    #hamburger-menu {
+        display: none;
+    }
+    #social-links { /* override*/
+        display: block;
+    }
+}
