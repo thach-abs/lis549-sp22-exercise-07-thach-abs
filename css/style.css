@@ -40,7 +40,7 @@ footer {
 
 /* media query */
 
-@media (min-width 598px) {
+@media (min-width: 598px) {
     #hamburger-menu {
         display: none;
     }
