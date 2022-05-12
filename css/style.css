@@ -65,7 +65,25 @@ footer {
     bottom: 0;
 }
 main {
-    text-shadow: 1px #153c43;
+    text-shadow: 1px 1px #153c43;
 }
 
+}
+
+@media (min-width: 992px) {
+    body {
+        background-image: url(../img/splash-lg.jpg);
+    }
+
+    nav a {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
 }
