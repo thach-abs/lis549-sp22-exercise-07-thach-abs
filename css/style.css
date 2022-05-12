@@ -55,17 +55,17 @@ footer {
         background-position: center;
         background-size: cover;
     }
-html {
-    height: 100%;
+    html {
+        height: 100%;
 }
-footer {
-    display: block;
-    position: fixed;
-    right: 0;
-    bottom: 0;
+    footer {
+        display: block;
+        position: fixed;
+        right: 0;
+        bottom: 0;
 }
-main {
-    text-shadow: 1px 1px #153c43;
+    main {
+        text-shadow: 1px 1px #153c43;
 }
 
 }
@@ -87,3 +87,10 @@ main {
         font-size: 3rem;
     }
 }
+
+@media (min-width: 1200px) {
+    body {
+        background-image: url(../img/splash-xl.jpg);
+    }
+}
+
